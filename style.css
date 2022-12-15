@@ -1,0 +1,59 @@
+*{
+    padding:0px;
+    margin: 0px;
+}
+#bttn
+{
+    float:right;
+font-size: 25px;
+padding:3px;
+color: aquamarine;
+background-color: rgb(25, 59, 122);
+border-spacing: 1px;
+border-radius: 11px;
+cursor: pointer;
+
+}
+
+#tto{
+    color:cyan;
+    font-size:30px;
+    text-align: center;
+    border: darkgreen;
+    background-color: darkorange;
+
+
+}
+ul{
+
+    margin: 0px;;
+    padding: 0px;
+    list-style: none;
+    height: 40px;
+    background-color:rgb(41, 39, 41);
+
+   
+}
+    
+li{
+    margin: 0px;
+    float:left;
+    padding: 1px 15px;
+  font-size: 31px;
+}
+
+a{
+    display: block;
+    padding: 0px,30px;
+    text-decoration: none;
+    color: #FFF;
+}
+
+a:hover
+{
+    background-color:rgb(78, 80, 235);
+
+}
+/* .active a{
+    background-color:rgb(78, 80, 235);
+} */
