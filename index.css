@@ -1,0 +1,90 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    
+}
+body{
+    background:rgba(0,0,0,.5) url(BG3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img{
+    height: 60px;
+    border:3px solid black;
+    border-radius:50%; 
+    position: relative;
+    top: -30px;
+    left:110px;;
+}
+
+
+.form
+{ font-weight: 200;
+    font-size: 25px;
+    color: white;
+    height: 50vh;
+    width:20%;
+    background-color: rgba(77, 77, 134, 0.5);
+    padding: 2px;
+    position:relative;
+    top: 90px;
+    left:500px;
+    /* display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center; */
+    /* text-align: center; */
+}
+
+
+.line{
+    text-align: center;
+}
+
+.line
+
+#submit{
+    width: 50%;
+    margin:5px;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(250, 6, 6);
+    border:2px solid;
+    border-radius:8px;
+}
+#submit:hover{
+    background: #000;
+    color: rgb(114, 1, 243);
+}
+
+.note a{ 
+    position:relative;
+    left: 30px;
+    color:blue;
+    border-bottom:none;
+    text-decoration: none;
+    /* transition:.5s .25s; */
+}
+a:hover{
+    color: chartreuse;
+    cursor: pointer;
+}
+/* a:visited{
+    color: red;
+} */
+
+/* a::after:hover{
+    border-bottom: darkgreen;
+    
+} */
+
+::placeholder{
+    color: rgb(34, 92, 0);
+    height:15px;
+
+}
+
+
